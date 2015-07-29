@@ -1,0 +1,1 @@
+module.exports = require('./lib/adgear-trader-api.js');
