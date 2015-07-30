@@ -50,7 +50,7 @@ _.each(resources, function(resource, index, list) {
 				trader[getSingle](4014, null, function() {}).should.be.ok;
 			});
 		});
-		/*
+		
 		describe('#' + patchSingle, function() {
 			it('patches a ' + inflect.pluralize(resource), function() {
 				(function() { trader[patchSingle](); }).should.throw(Error);
@@ -70,6 +70,5 @@ _.each(resources, function(resource, index, list) {
 				trader[patchSingle](4014, { name:"Test " + Math.random() }, function() {  }).should.be.ok;
 			});
 		});
-		*/
 	});
 });
