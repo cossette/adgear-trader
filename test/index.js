@@ -8,7 +8,7 @@ var inflect = require('inflect');
 
 var trader = require('../index.js')(process.env.AUTH_TOKEN);
 
-var resources = ['advertiser' , 'campaign', 'creative', 'flight'];
+var resources = ['advertiser' , 'campaign', 'creative', 'flight', 'geolist'];
 
 _.each(resources, function(resource, index, list) {
 	var getAll = 'get' + inflect.capitalize(inflect.pluralize(resource));
