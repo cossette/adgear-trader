@@ -11,13 +11,9 @@ AdGear Trader API wrapper written in JavaScript/Node.js.
 
 ## Usage
 ```
-  var trader = require('adgear-trader');
+  var trader = require('adgear-trader')(ev.process.AUTH_TOKEN);
   
-  trader.authenticate(process.env.EF_USER, process.env.EF_PASSWORD, { endpoint:process.env.EF_ENDPOINT }, function(auth) {
-    
-  });
-  
-  trader.getCampaigns(function(campaigns) {
+  trader.getCampaigns(function(err, campaigns) {
     
   });
 ```
