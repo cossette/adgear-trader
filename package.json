@@ -1,6 +1,6 @@
 {
 	"name": "adgear-trader",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "AdGear Trader API",
 	"main": "index.js",
 	"scripts": {
