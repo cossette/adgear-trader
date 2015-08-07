@@ -7,7 +7,7 @@ AdGear Trader API wrapper written in JavaScript/Node.js.
 
 ## Installation
 
-  npm install adgear-trader --save
+  ```npm install adgear-trader --save```
 
 ## Usage
 ```
