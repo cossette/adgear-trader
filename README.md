@@ -19,7 +19,7 @@ AdGear Trader API wrapper written in JavaScript/Node.js.
 ```
 ## Tests
 
-  npm test
+  ```npm test```
 
 ## Release History
 
