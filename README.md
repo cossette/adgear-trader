@@ -13,7 +13,7 @@ AdGear Trader API wrapper written in JavaScript/Node.js.
 ```
   var trader = require('adgear-trader')(ev.process.AUTH_TOKEN);
   
-  trader.getCampaigns(function(err, campaigns) {
+  trader.getCampaigns({ filter:"state = 'active'" }, function(err, campaigns) {
     
   });
 ```
