@@ -1,38 +1,39 @@
 {
-	"name": "adgear-trader",
-	"version": "0.2.0",
-	"description": "AdGear Trader API",
-	"main": "index.js",
-	"scripts": {
-		"test": "make test"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/cossette/adgear-trader.git"
-	},
-	"keywords": [
-		"adgear"
-	],
-	"author": "Louis Roy <louis.roy@cossette.com>",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/cossette/adgear-trader/issues"
-	},
-	"homepage": "https://github.com/cossette/adgear-trader#readme",
-	"dependencies": {
-		"conflate": "^1.1.0",
-		"fs": "0.0.2",
-		"inflect": "^0.3.0",
-		"request": "^2.60.0",
-		"underscore": "^1.8.3"
-	},
-	"devDependencies": {
-		"chai": "^3.2.0",
-		"dotenv": "^1.2.0",
-		"grunt": "^0.4.5",
-		"grunt-contrib-jshint": "^0.11.2",
-		"grunt-contrib-watch": "^0.6.1",
-		"install": "^0.1.8",
-		"mocha": "^2.2.5"
-	}
+  "name": "adgear-trader",
+  "version": "0.2.0",
+  "description": "AdGear Trader API",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cossette/adgear-trader.git"
+  },
+  "keywords": [
+    "adgear"
+  ],
+  "author": "Louis Roy <louis.roy@cossette.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cossette/adgear-trader/issues"
+  },
+  "homepage": "https://github.com/cossette/adgear-trader#readme",
+  "dependencies": {
+    "conflate": "^1.1.0",
+    "fs": "0.0.2",
+    "image-size": "^0.3.5",
+    "inflect": "^0.3.0",
+    "request": "^2.60.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "dotenv": "^1.2.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "install": "^0.1.8",
+    "mocha": "^2.2.5"
+  }
 }
